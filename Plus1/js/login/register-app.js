@@ -1,0 +1,2 @@
+'strict'
+let users = getRegisteredUsers()

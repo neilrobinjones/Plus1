@@ -1,0 +1,51 @@
+<!DOCTYPE html >
+
+<title>Plus1 Registration</title>
+
+<html>
+ <head>
+   <link rel="shortcut icon" href="transparent icon.ico"/> <!-- icon for the title -->
+   <img src="horizontal_on_white.png">
+   <h1> Welcome to Plus 1!</h1>
+ <body>
+    <h3>Please fill out the form below to create your new account.</h3>
+   
+    <div>
+        <label for="gender">Gender:</label>
+        <select id="gender" placeholder = "Please Select">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        </select>
+    </div>
+
+  <div>
+    <p>
+       <label for="firstName">First Name:</label>
+       <input id="firstName" type="text" placeholder="">
+    </p>
+    <p>
+       <label for="lastName">Last Name:</label>
+       <input id="lastName" type="text" placeholder="">
+    </p>
+    <p>
+      <label for="email">Email:</label>
+      <input id="email" type="text" placeholder="">
+   </p>
+    <p>
+      <label for="password">Password:</label>
+      <input id="password" type="password" placeholder="">
+      <p>
+      <label><input id="show-password" type="checkbox" onclick="showPassword()">Show Password</label>
+      </p>
+    </p>
+      
+    <p>
+      <button class="register-complete" id="registration-complete-button">Register</button>
+    </p>
+  </div>
+     </body>
+     <script src="register-functions.js"></script>
+     <script src="register-app.js"></script>
+     <script src="uuidv4.js"></script>
+ </head>
+</html>
